@@ -31,7 +31,7 @@ public class BitcoinApiService {
             JSONObject eur = bpi.getJSONObject("EUR");
             String eurRate = eur.getString("rate");
 
-            // Create BitcoinData object
+
             BitcoinData bitcoinData = new BitcoinData();
             bitcoinData.setUpdated(updated);
             bitcoinData.setUpdatedISO(updatedISO);
@@ -39,7 +39,7 @@ public class BitcoinApiService {
             bitcoinData.setGbpRate(gbpRate);
             bitcoinData.setEurRate(eurRate);
 
-            // Display the data
+
             System.out.println("Raw Bitcoin Data:");
             System.out.println(jsonResponse);
             System.out.println("Updated Time: " + updated);

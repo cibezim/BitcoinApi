@@ -10,7 +10,6 @@ public class Bpi {
     @JsonProperty("EUR")
     private CurrencyInfo eur;
 
-    // Getters and Setters
 
     public CurrencyInfo getUsd() {
         return usd;

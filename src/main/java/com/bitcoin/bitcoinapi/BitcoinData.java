@@ -7,7 +7,6 @@ public class BitcoinData {
     private String gbpRate;
     private String eurRate;
 
-    // Getters and setters for all properties
 
     public String getUpdated() {
         return updated;
@@ -49,5 +48,5 @@ public class BitcoinData {
         this.eurRate = eurRate;
     }
 
-    // Additional properties and methods as needed
+
 }

@@ -10,7 +10,7 @@ public class CurrencyInfo {
     @JsonProperty("rate_float")
     private double rateFloat;
 
-    // Getters and Setters
+
 
     public String getCode() {
         return code;
